@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace MathTest
 {
@@ -6,7 +7,21 @@ namespace MathTest
     {
         static void Main(string[] args)
         {
+            try
+            {
+                string text = "";
+                using (StreamReader file = new StreamReader(@"Test.txt"))
+                {
+                    string line;
 
+                    file.Close();
+
+                }
+            }
+            catch (FileNotFoundException)
+            {
+                Console.WriteLine("Файл с тестами не найден");
+            }
 
 
         }
