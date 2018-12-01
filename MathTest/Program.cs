@@ -6,7 +6,7 @@ namespace MathTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Mummy!");
+            Console.WriteLine("Hello Mum!");
         }
     }
 }
