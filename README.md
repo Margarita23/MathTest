@@ -2,4 +2,5 @@
 
 * clone project
 * cd /path/to/project
-* dotnet 
+* dotnet build
+* dotnet run
